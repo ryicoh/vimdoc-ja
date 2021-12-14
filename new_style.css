@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  color: rgb(75, 85, 99);
+}
+
+a:hover {
+  color: rgb(18, 20, 22);
+}
+
+header {
+  width: 100vw;
+  padding: 0 24px;
+  border-bottom: 1px solid #c3c3c3;
+  background: white;
+  z-index: 1;
+}
+
+.Header {
+  height: 85;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header svg {
+  display: inline;
+}
+
+.HeaderLinks {
+  flex: 1;
+}
+
+.gsc-input-box {
+  border-color: rgba(75, 85, 99, 0.5) !important;
+  border-radius: 3px;
+}
+
+.gsc-input {
+  background: none !important;
+}
+
+.gsc-search-button {
+  padding: 10px !important;
+}
+
+.gsc-search-button button {
+  border: none;
+}
+
+.HeaderLinks > :first-child {
+  margin-bottom: 10px
+}
+
+.HeaderActions {
+  flex: 1;
+}
+
+.HeaderActions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h1 {
+  font-size: 22px !important;
+  color: rgb(18, 20, 22);
+}
+
+main {
+  width: 100vw;
+  padding: 0 24px;
+  background-color: rgb(239 239 220 / 22%);
+  position: relative;
+}
+
+.Main {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-right: 10%;
+}
+
+nav {
+  font-size: 14px;
+  width: 200px;
+  border-right: none;
+  margin-right: 32px;
+  margin: 48px;
+}
+
+nav dt {
+  color: #007f00;
+  padding-left: 10px;
+  font-size: 16px;
+  border-top: none;
+  border-left: 4px solid #007f00;
+}
+
+.PreProc {
+  color: #007f00;
+}
+
+nav dd {
+  margin-bottom: 24px;
+}
+
+nav dd li {
+  margin: 6px 0;
+}
+
+nav li a:link, nav li a:link {
+  color: inherit;
+}
+
+nav li a.CurrentPage {
+  background-color: #f0f0dd;
+}
+
+nav li a:hover {
+  background-color: #f0f0dd;
+}
+
+.MainLeftSpace {
+  position: fixed;
+  background: white;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+}
+
+.ArticleWrapper {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+
+article.Vimdoc {
+  margin: 54px 0;
+  border-left: none;
+  line-height: 1.4;
+}
